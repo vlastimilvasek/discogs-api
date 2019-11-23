@@ -70,6 +70,22 @@ class DiscogsApi
         return $this->delete('marketplace/listings/', $listingId);
     }
 
+    public function requestInventoryExport()
+    {
+        return $this->post('inventory/export');
+    }
+
+    public function addInventory()
+    {
+        $file = 'file.csv'; // get CSV file
+        return $this->post('inventory/upload/add', '', ['upload' => $file] );
+    }
+
+    public function deleteInventory()
+    {
+        return $this->post('inventory/upload/delete');
+    }
+
     public function orderWithId(string $id)
     {
 //        return $this->get("marketplace/orders/{$id}", '', [], true);
@@ -128,6 +144,18 @@ class DiscogsApi
     {
         $content = $this->client
             ->get(
+                $this->url($this->path($resource, $id)),
+                $this->parameters($query, $mustAuthenticate)
+            )->getBody()
+            ->getContents();
+
+        return json_decode($content);
+    }
+
+    public function post(string $resource, string $id = '', array $query = [], bool $mustAuthenticate = false)
+    {
+        $content = $this->client
+            ->post(
                 $this->url($this->path($resource, $id)),
                 $this->parameters($query, $mustAuthenticate)
             )->getBody()
