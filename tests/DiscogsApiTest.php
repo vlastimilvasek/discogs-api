@@ -164,8 +164,8 @@ class DiscogsApiTest extends TestCase
         $this->client
             ->shouldReceive('post')->times(2)->andReturn((object) ['reasonPhrase' => 'OK', 'statusCode' => 200]);
         $this->discogs = new DiscogsApi($this->client, '12345');
-        $reasonPhrase = $this->discogs->changeOrderStatus('123', 'Cancelled (Item Unavailable)')->getReasonPhrase();
-        $statusCode = $this->discogs->changeOrderStatus('123', 'Cancelled (Item Unavailable)')->getStatusCode();
+        $reasonPhrase = $this->discogs->changeOrderStatus('123', 'Cancelled (Item Unavailable)')->ReasonPhrase;
+        $statusCode = $this->discogs->changeOrderStatus('123', 'Cancelled (Item Unavailable)')->StatusCode;
 
         $this->assertEquals($reasonPhrase, 'OK');
         $this->assertEquals($statusCode, 200);
@@ -177,8 +177,8 @@ class DiscogsApiTest extends TestCase
         $this->client
             ->shouldReceive('post')->times(2)->andReturn((object) ['reasonPhrase' => 'OK', 'statusCode' => 200]);
         $this->discogs = new DiscogsApi($this->client, '12345');
-        $reasonPhrase = $this->discogs->addShipping('123', '12.60')->getReasonPhrase();
-        $statusCode = $this->discogs->addShipping('123', '12.60')->getStatusCode();
+        $reasonPhrase = $this->discogs->addShipping('123', '12.60')->ReasonPhrase;
+        $statusCode = $this->discogs->addShipping('123', '12.60')->StatusCode;
 
         $this->assertEquals($reasonPhrase, 'OK');
         $this->assertEquals($statusCode, 200);
@@ -190,8 +190,8 @@ class DiscogsApiTest extends TestCase
         $this->client
             ->shouldReceive('delete')->times(2)->andReturn((object) ['reasonPhrase' => 'OK', 'statusCode' => 200]);
         $this->discogs = new DiscogsApi($this->client, '12345');
-        $reasonPhrase = $this->discogs->deleteListing('123')->getReasonPhrase();
-        $statusCode = $this->discogs->deleteListing('123')->getStatusCode();
+        $reasonPhrase = $this->discogs->deleteListing('123')->ReasonPhrase;
+        $statusCode = $this->discogs->deleteListing('123')->StatusCode;
 
         $this->assertEquals($reasonPhrase, 'OK');
         $this->assertEquals($statusCode, 200);

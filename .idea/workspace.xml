@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="492fb499-95ff-48fd-b2a8-cd87903a04d8" name="Default Changelist" comment="" />
+    <list default="true" id="492fb499-95ff-48fd-b2a8-cd87903a04d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/DiscogsApiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DiscogsApiTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +135,7 @@
       <workItem from="1581502465222" duration="612000" />
       <workItem from="1583856542832" duration="299000" />
       <workItem from="1587571682801" duration="1331000" />
-      <workItem from="1587574348124" duration="1927000" />
+      <workItem from="1587574348124" duration="2712000" />
     </task>
     <servers />
   </component>
@@ -161,5 +164,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="500" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587574350890" />
+    <state x="488" y="266" width="703" height="518" key="find.popup" timestamp="1587584251816">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="488" y="266" width="703" height="518" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1587584251816" />
   </component>
 </project>
