@@ -50,14 +50,14 @@ class SearchParameters
         });
     }
 
-    public function settype(string $type)
+    public function setType(string $type)
     {
         $this->type = $type;
 
         return $this;
     }
 
-    public function settitle(string $title)
+    public function setTitle(string $title)
     {
         $this->title = $title;
 
