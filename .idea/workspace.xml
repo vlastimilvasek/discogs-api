@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="492fb499-95ff-48fd-b2a8-cd87903a04d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +91,20 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.DiscogsApiTest.it_can_get_artist_by_id">
+    <configuration name="DiscogsApiTest.it_can_get_artist_by_id" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Jolita\DiscogsApi\Test\DiscogsApiTest" file="$PROJECT_DIR$/tests/DiscogsApiTest.php" method="it_can_get_artist_by_id" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.DiscogsApiTest.it_can_get_artist_by_id" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -127,7 +134,7 @@
       <workItem from="1581502465222" duration="612000" />
       <workItem from="1583856542832" duration="299000" />
       <workItem from="1587571682801" duration="1331000" />
-      <workItem from="1587574348124" duration="1335000" />
+      <workItem from="1587574348124" duration="1662000" />
     </task>
     <servers />
   </component>
@@ -148,6 +155,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="461" y="128" key="#DiscogsApiTest.it_can_get_artist_by_id" timestamp="1587583017625">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="461" y="128" key="#DiscogsApiTest.it_can_get_artist_by_id/0.0.1680.1050@0.0.1680.1050" timestamp="1587583017625" />
     <state x="500" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1587574350890">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
