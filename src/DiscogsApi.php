@@ -190,7 +190,7 @@ class DiscogsApi
     protected function parameters(array $query, bool $mustAuthenticate) : array
     {
         if ($mustAuthenticate) {
-            $query = array_add($query, 'token', $this->token());
+            $query = array_push($query, 'token', $this->token());
         }
 
         return  [
