@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="492fb499-95ff-48fd-b2a8-cd87903a04d8" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> d4cf9929dac5f5319dca6f3dd11b73f692a564bf
       <change beforePath="$PROJECT_DIR$/tests/DiscogsApiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DiscogsApiTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +143,11 @@
       <workItem from="1581502465222" duration="612000" />
       <workItem from="1583856542832" duration="299000" />
       <workItem from="1587571682801" duration="1331000" />
+<<<<<<< HEAD
       <workItem from="1587574348124" duration="3790000" />
+=======
+      <workItem from="1587574348124" duration="3511000" />
+>>>>>>> d4cf9929dac5f5319dca6f3dd11b73f692a564bf
     </task>
     <servers />
   </component>
