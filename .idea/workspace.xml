@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="492fb499-95ff-48fd-b2a8-cd87903a04d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiscogsApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiscogsApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/DiscogsApiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DiscogsApiTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +139,7 @@
       <workItem from="1581502465222" duration="612000" />
       <workItem from="1583856542832" duration="299000" />
       <workItem from="1587571682801" duration="1331000" />
-      <workItem from="1587574348124" duration="3265000" />
+      <workItem from="1587574348124" duration="3790000" />
     </task>
     <servers />
   </component>
@@ -178,20 +176,5 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="488" y="266" width="703" height="518" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1587584251816" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/tests/DiscogsApiTest.php</url>
-          <line>148</line>
-          <properties>
-            <option name="className" value="\Jolita\DiscogsApi\Test\DiscogsApiTest" />
-            <option name="methodName" value="it_throws_exception_if_no_token_provided" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
