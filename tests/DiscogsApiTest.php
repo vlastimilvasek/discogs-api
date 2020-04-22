@@ -164,7 +164,7 @@ class DiscogsApiTest extends TestCase
         $this->client
             ->shouldReceive('post')->times(2)->andReturn((object) ['reasonPhrase' => 'OK', 'statusCode' => 200]);
         $this->discogs = new DiscogsApi($this->client, '12345');
-        $reasonPhrase = $this->discogs->changeOrderStatus('123', 'Cancelled (Item Unavailable)')->ReasonPhrase;
+        $reasonPhrase = $this->discogs->changeOrderStatus('123', 'Cancelled (Item Unavailable)')?'OK':'NOT OK';
         $statusCode = $this->discogs->changeOrderStatus('123', 'Cancelled (Item Unavailable)')->StatusCode;
 
         $this->assertEquals($reasonPhrase, 'OK');
@@ -177,7 +177,7 @@ class DiscogsApiTest extends TestCase
         $this->client
             ->shouldReceive('post')->times(2)->andReturn((object) ['reasonPhrase' => 'OK', 'statusCode' => 200]);
         $this->discogs = new DiscogsApi($this->client, '12345');
-        $reasonPhrase = $this->discogs->addShipping('123', '12.60')->ReasonPhrase;
+        $reasonPhrase = $this->discogs->addShipping('123', '12.60')?'OK':'NOT OK';
         $statusCode = $this->discogs->addShipping('123', '12.60')->StatusCode;
 
         $this->assertEquals($reasonPhrase, 'OK');
@@ -190,7 +190,7 @@ class DiscogsApiTest extends TestCase
         $this->client
             ->shouldReceive('delete')->times(2)->andReturn((object) ['reasonPhrase' => 'OK', 'statusCode' => 200]);
         $this->discogs = new DiscogsApi($this->client, '12345');
-        $reasonPhrase = $this->discogs->deleteListing('123')->ReasonPhrase;
+        $reasonPhrase = $this->discogs->deleteListing('123')?'OK':'NOT OK';
         $statusCode = $this->discogs->deleteListing('123')->StatusCode;
 
         $this->assertEquals($reasonPhrase, 'OK');
