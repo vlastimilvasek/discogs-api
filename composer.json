@@ -1,6 +1,6 @@
 {
     "name": "jolitagrazyte/discogs-api",
-    "description": "A simple Discogs Api wrapper using Guzzle6.",
+    "description": "A simple Discogs Api wrapper using Guzzle.",
     "keywords": [
         "Discogs Api"
     ],
@@ -17,7 +17,7 @@
     "require": {
         "php" : "^7.4",
         "illuminate/support": "^7.7",
-        "guzzlehttp/guzzle":"^6.5",
+        "guzzlehttp/guzzle":">=6.5",
         "mockery/mockery": "^1"
     },
     "require-dev": {
